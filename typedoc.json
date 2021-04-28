@@ -1,0 +1,8 @@
+{
+	"name": "@untemps/jsend-wrapper",
+	"entryPoints": ["src/index.ts"],
+	"out": "dist/docs",
+	"theme": "minimal",
+	"readme": "README.md",
+	"includeVersion": true
+}

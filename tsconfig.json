@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "Node",
+		"target": "ESNext",
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"pretty": true,
+		"declaration": true,
+		"declarationDir": "dist/types"
+	},
+	"include": ["src"],
+	"exclude": ["dist", "src/**/*.test.ts"]
+}
