@@ -26,13 +26,13 @@ Import `JSendWrapper`:
 import { JSendWrapper } from '@untemps/jsend-wrapper'
 ```
 
-Create an instance of `JSendWrapper` passing two mandatory and two optional arguments:
+Create an instance of `JSendWrapper`:
 
 ```javascript
 const jsend = new JSendWrapper()
 ```
 
-Call the `wrap` method with the arguments:
+Call the `wrap` method passing two mandatory and two optional arguments:
 
 ```javascript
 jsend.wrap([statusCode], [body], [errorCode], [errorData])
