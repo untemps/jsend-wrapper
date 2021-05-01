@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"moduleResolution": "Node",
-		"target": "ESNext",
+		"target": "ES2019",
 		"allowSyntheticDefaultImports": true,
 		"allowJs": true,
 		"pretty": true,
