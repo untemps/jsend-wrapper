@@ -94,6 +94,19 @@ The type of the body argument depends on the status:
 }
 ```
 
+## `JSendError`
+
+A JSendError class is provided to help throwing specific JSend errors.
+
+The constructor accepts either plain `message`, `code`, `data` arguments or a `JSendResponse` object:
+
+```
+import { JSendError } from '@untemps/jsend-wrapper'
+
+throw new JSendError('HTTP Error', 500, { someValue: 42 })
+throw new JSendError({ status: 'error', message: 'HTTP Error', code: 500, data: { someValue: 42 })
+```
+
 ## Types
 
 Besides the class wrapper, the lib exports the definitions for the response type (`TJSendResponse`) and the status enum (`EJSendStatus`).
