@@ -94,6 +94,27 @@ The type of the body argument depends on the status:
 }
 ```
 
+## Types
+
+Besides the class wrapper, the lib exports the definitions for the response type (`TJSendResponse`) and the status enum (`EJSendStatus`).
+
+### `TJSendResponse`
+
+```typescript
+status: EJSendStatus
+data?: any
+message?: string,
+code?: number
+```
+
+### `EJSendStatus`
+
+```typescript
+SUCCESS = 'success'
+FAIL = 'fail'
+ERROR = 'error'
+```
+
 ---
 
 For more information about the JSend Spec, see the GitHub README here : [https://github.com/omniti-labs/jsend](https://github.com/omniti-labs/jsend)
