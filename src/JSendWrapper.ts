@@ -6,7 +6,7 @@ class JSendWrapper {
 		const status: EJSendStatus = JSendWrapper.getStatus(statusCode)
 		switch (status) {
 			case EJSendStatus.ERROR:
-				return { status, message: body || 'Error', ...(!!errorCode && { code: errorCode }), ...(!!errorData && { data: errorData }) }
+				return { status, message: body || 'Error', code: errorCode || statusCode, ...(!!errorData && { data: errorData }) }
 		}
 		return { status, data: body || null }
 	}
