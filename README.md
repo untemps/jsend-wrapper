@@ -9,7 +9,7 @@ The status string (`success`, `fail`, `error`) is calculated along with the HTTP
 -   Otherwise, `status` is set to `success`
 
 ![npm](https://img.shields.io/npm/v/@untemps/jsend-wrapper?style=for-the-badge)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/untemps/jsend-wrapper/deploy?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/untemps/jsend-wrapper/index.yml?style=for-the-badge)
 ![Codecov](https://img.shields.io/codecov/c/github/untemps/jsend-wrapper?style=for-the-badge)
 
 ## Installation
